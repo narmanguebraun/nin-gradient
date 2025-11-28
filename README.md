@@ -4,7 +4,7 @@ Quick tool to make a 2 colors gradient, and get its code.
 
 - Previews: Background or Text.
 - Code: View and copy its CSS or Tailwind CSS code.
-- Demo: [nin-gradient.vercel.app](nin-gradient.vercel.app)
+- Demo: [nin-gradient.vercel.app](https://nin-gradient.vercel.app)
 
 ## Installation
 
