@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer base {
+  a {
+    @apply hover:text-rose-400;
+  }
+  :-moz-selection {
+    @apply bg-rose-400 text-white;
+  }
+  ::selection {
+    @apply bg-rose-400 text-white;
+  }
+}
