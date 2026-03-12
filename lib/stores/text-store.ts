@@ -11,6 +11,6 @@ export type TextAction = {
 export type TextStore = TextState & TextAction
 
 export const useTextStore = create<TextStore>((set) => ({
-  text: "That fine line between discipline and freedom ",
+  text: "That fine line between discipline and freedom",
   updateText: (text) => set(() => ({ text: text }))
 }))
