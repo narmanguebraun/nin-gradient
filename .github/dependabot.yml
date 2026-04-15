@@ -8,12 +8,12 @@ updates:
       time: "09:00"
       timezone: "Europe/Paris"
     groups:
-      react:
+      all-dependencies:
         patterns:
-          - "react"
-          - "react-dom"
-          - "@types/react"
-          - "@types/react-dom"
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
     open-pull-requests-limit: 10
     labels:
       - "dependencies"
@@ -22,5 +22,7 @@ updates:
       include: "scope"
     ignore:
       # Ignore major version bumps — review those manually
+      # NOTE: also applies to react, typescript, etc.
       - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
+        update-types:
+          - "version-update:semver-major"
